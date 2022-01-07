@@ -16,7 +16,7 @@ header {
         width: 70%;
         justify-content: center;
     }
-    .sign-up {
+    form {
         width: 100%;
         flex-direction: row;
         justify-content: center;
@@ -105,6 +105,10 @@ main {
         }
         p {
             font-size: 0.9rem;
+        }
+
+        h3 {
+            font-size: 1.1rem;
         }
     }
 

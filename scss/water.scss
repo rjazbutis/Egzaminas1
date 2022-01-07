@@ -1,5 +1,5 @@
 .water {
-  background-image: url(/app/fotkes/bg-masthead.jpg);
+  background: url(../fotkes/bg-masthead.jpg);
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -20,7 +20,7 @@
     margin-bottom: 30px;
   }
 
-  .sign-up {
+  form {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -43,10 +43,12 @@
       font-size: 1.2rem;
       font-family: lato;
       font-weight: 500;
+      transition: 0.4s;
 
       &:hover {
         color: $blue;
         background: white;
+        cursor: pointer;
       }
     }
   }
