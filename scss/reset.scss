@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  max-width: 1024px;
+  font-size: 15px;
+  font-family: lato;
+  margin: 0 auto;
+}
+
+p {
+    color:  grey;
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: $blue;
+}
+
+ul {
+    list-style-type: none;
+}

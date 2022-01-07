@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: $body-color;
+  align-items: center;
+  padding: 30px;
+
+  p {
+    font-size: 1.1rem;
+    color: black;
+  }
+
+    button {
+    background: $blue;
+    color: white;
+    border: 1px solid $blue;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: lato;
+    font-size: 1rem;
+    font-weight: 500;
+
+    &:hover {
+        color: $blue;
+        background-color: white;
+    }
+}
+  }

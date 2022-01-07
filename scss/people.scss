@@ -1,0 +1,36 @@
+.people {
+  max-width: 1024px;
+  background: $body-color;
+  text-align: center;
+  padding: 100px 0;
+
+  h2 {
+    font-size: 1.8rem;
+    padding: 10px 10px;
+  }
+
+  .wrap {
+    padding: 0 10px;
+  }
+
+  .item {
+    margin: 50px 0;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    box-shadow: -1px 8px 15px -1px rgba(107,105,105,1);
+  }
+
+  h3 {
+    font-size: 1.3rem;
+    margin: 15px 0;
+  }
+
+  p {
+    font-size: 15px;
+    width: 100%;
+  }
+}
